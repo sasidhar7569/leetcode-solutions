@@ -6,6 +6,7 @@
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sasidhar7569/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/sasidhar7569/leetcode-solutions/tree/master/0169-majority-element) |
+| [1512-number-of-good-pairs](https://github.com/sasidhar7569/leetcode-solutions/tree/master/1512-number-of-good-pairs) |
 | [2011-final-value-of-variable-after-performing-operations](https://github.com/sasidhar7569/leetcode-solutions/tree/master/2011-final-value-of-variable-after-performing-operations) |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/sasidhar7569/leetcode-solutions/tree/master/2016-maximum-difference-between-increasing-elements) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/sasidhar7569/leetcode-solutions/tree/master/2078-two-furthest-houses-with-different-colors) |
@@ -31,6 +32,7 @@
 | ------- |
 | [0169-majority-element](https://github.com/sasidhar7569/leetcode-solutions/tree/master/0169-majority-element) |
 | [0771-jewels-and-stones](https://github.com/sasidhar7569/leetcode-solutions/tree/master/0771-jewels-and-stones) |
+| [1512-number-of-good-pairs](https://github.com/sasidhar7569/leetcode-solutions/tree/master/1512-number-of-good-pairs) |
 ## Greedy
 |  |
 | ------- |
@@ -47,4 +49,9 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/sasidhar7569/leetcode-solutions/tree/master/0169-majority-element) |
+| [1512-number-of-good-pairs](https://github.com/sasidhar7569/leetcode-solutions/tree/master/1512-number-of-good-pairs) |
+## Math
+|  |
+| ------- |
+| [1512-number-of-good-pairs](https://github.com/sasidhar7569/leetcode-solutions/tree/master/1512-number-of-good-pairs) |
 <!---LeetCode Topics End-->
