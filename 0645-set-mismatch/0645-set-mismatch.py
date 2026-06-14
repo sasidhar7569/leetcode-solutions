@@ -12,7 +12,7 @@ class Solution:
             if dici[j]==2:
                 s.append(j)        
         for i in range(1,k+1):
-            if i in nums:
+            if i in dici:
                 continue
             else:
                 s.append(i)        
