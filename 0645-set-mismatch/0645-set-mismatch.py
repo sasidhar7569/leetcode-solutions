@@ -19,20 +19,4 @@ class Solution:
                   
         
         return s 
-        #ANOTHER METHOD
-        # s=set()
-        # first=0
-        # second=0
-        # k=len(nums)
-        # for i in range(k):
-        #     if nums[i] not in s:
-        #         s.add(nums[i])
-        #     else:
-        #         first+=nums[i]
-        # for j in range(1,k+1):
-        #     if j in s:
-        #         continue
-        #     else:
-        #         second+=j
-        # return [first,second]          
         
