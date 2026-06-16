@@ -1,13 +1,11 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         dici={}
-        ans=False
         for i in nums:
             if i in dici:
-                ans=True
-                break
+                return True
             dici[i]=1
-        return ans    
+        return False   
         # ans=True
         # for i in nums:
         #     if i not in dici:
