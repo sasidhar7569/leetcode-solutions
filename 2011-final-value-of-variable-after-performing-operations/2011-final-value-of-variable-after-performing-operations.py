@@ -1,9 +1,10 @@
 class Solution:
-    def finalValueAfterOperations(self, operations: List[str]) -> int:
-        X=0
-        for ch in operations:
-            if ch=="X++" or ch=="++X":
-                 X+=1
+    def finalValueAfterOperations(self, operations: list[str]) -> int:
+        ans=0
+        for i in operations:
+            if i=="++X" or i=="X++":
+                ans+=1
             else:
-                X-=1
-        return X
+                ans-=1
+
+        return ans
