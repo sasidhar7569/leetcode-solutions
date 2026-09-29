@@ -3,6 +3,5 @@ class Solution:
         ans=""
         for i in address:
             ans=address.replace(".","[.]")
-
         return ans
         
