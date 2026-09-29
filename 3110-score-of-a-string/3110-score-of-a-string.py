@@ -1,11 +1,9 @@
 class Solution:
     def scoreOfString(self, s: str) -> int:
-        score=0
-        me=[]
-        for ch in s:
-            me.append(ord(ch))
-        for i in range(1,len(me)):
-            k=abs((me[i-1])-(me[i]))
+        result=0
+        n=len(s)
+        for i in range(1,n):
+            result+=abs(ord(s[i-1])-ord(s[i]))
+        return result
 
-            score=k+score
-        return score    
+        
