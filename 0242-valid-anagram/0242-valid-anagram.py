@@ -12,10 +12,11 @@ class Solution:
                 dici2[j]=1
             else:
                 dici2[j]+=1
-        if dici1==dici2:
-            return True
-        else:
-            return False
+        return dici1==dici2
+        # if dici1==dici2:
+        #     return True
+        # else:
+        #     return False
             
 
         
