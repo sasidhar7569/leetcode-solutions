@@ -4,19 +4,26 @@ class Solution:
         for i in nums:
             if i in dici:
                 return True
-            dici[i]=1
-        return False   
-        # ans=True
+            else:
+                dici[i]=1
+        return False
+        # dici={}
         # for i in nums:
-        #     if i not in dici:
-        #         dici[i]=1
-        #     else:
-        #         dici[i]+=1
-        # for j in dici:
-        #     if dici[j]>=2:
-        #         ans=True
-        #         break
-        #     else:
-        #         ans=False   
-        # return ans                  
+        #     if i in dici:
+        #         return True
+        #     dici[i]=1
+        # return False   
+        # # ans=True
+        # # for i in nums:
+        # #     if i not in dici:
+        # #         dici[i]=1
+        # #     else:
+        # #         dici[i]+=1
+        # # for j in dici:
+        # #     if dici[j]>=2:
+        # #         ans=True
+        # #         break
+        # #     else:
+        # #         ans=False   
+        # # return ans                  
         
