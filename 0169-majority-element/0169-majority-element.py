@@ -7,7 +7,7 @@ class Solution:
             else:
                 dici[i]+=1
         for j in dici:
-            if dici[j]>len(nums)/2:
+            if dici[j]>len(nums)//2:
                 return j
             
         
