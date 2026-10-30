@@ -1,39 +1,15 @@
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
-        s=[]
-        k=len(nums)
+        ans=[]
         dici={}
-        for j in nums:
+        for i in nums:
+            if i not in dici:
+                dici[i]=1
+            else:
+                ans.append(i)
+        for j in range(1,len(nums)+1):
             if j not in dici:
-                dici[j]=1
-            else:
-                dici[j]+=1
-        for j in dici:
-            if dici[j]==2:
-                s.append(j)        
-        for i in range(1,k+1):
-            if i in dici:
-                continue
-            else:
-                s.append(i)        
-                  
-        
-        return s
-        #ANOTHER METHOD
-        # s=set()
-        # first=0
-        # second=0
-        # k=len(nums)
-        # for i in range(k):
-        #     if nums[i] not in s:
-        #         s.add(nums[i])
-        #     else:
-        #         first+=nums[i]
-        # for j in range(1,k+1):
-        #     if j in s:
-        #         continue
-        #     else:
-        #         second+=j
-        # return [first,second]          
-        
+                ans.append(j)
+                break
+        return ans
         
