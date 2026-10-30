@@ -12,4 +12,18 @@ class Solution:
                 ans.append(j)
                 break
         return ans
+
+# s=set()
+# miss=0
+# dup=0
+# for i in range(len(nums)):
+#   if nums[i] not in s:
+#     s.add(nums[i])
+#   else:
+#     dup=nums[i]
+# for j in range(1,len(nums)+1):
+#   if j not in s:
+#     miss=j
+#     break
+# print([dup,miss])
         
